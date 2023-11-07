@@ -1,0 +1,113 @@
+/* Style */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
+  body {
+    background: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    overflow-x: hidden;
+  }
+  h3{
+    color: purple;
+    font-weight: 700;
+  }
+  /*---------------------------------------
+      MENU              
+  -----------------------------------------*/
+  .first-logo{
+    background: -webkit-linear-gradient(225deg, #fb0909 0%, #d0027e 50%, #020dd8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size:26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .navbar-default .logo {
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size:24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+/* styles for input type, edit and delete buttons */
+.task{
+  color:rgb(58, 0, 150);
+  font-size: 18px;
+  border: 2px solid rgb(98, 0, 255);
+  border-radius: 5px;
+  font-weight: bold;
+}
+.add-btn{
+  color: white;
+  background-color: blue;
+  height: 32px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.edit {
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #008404;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.delete {
+  font-size: 16px;
+  background-color: #e30f00;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.complete {
+  font-size: 16px;
+  background-color:blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+}
+table, th {
+  border: 1px solid #ccc;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+table,  td {
+  border: 1px solid #ccc;
+  color: rgb(54, 0, 249);
+  font-size: 16px;
+  font-weight: bold;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}

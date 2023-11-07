@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>To-DO List</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+     <!-- HEADER -->
+     <header>
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-8 col-sm-7 text-align-right">
+                         <span class="phone-icon"><i class="fa fa-phone"></i> 92849XXXXX</span>
+                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:contact.ai.ds@gmail.com">sanketyedle@gmail.com</a></span>
+                    </div>
+               </div>
+          </div>
+     </header>
+
+     <!-- MENU -->
+     <section class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+               <div class="navbar-header">
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="logo"><span class="first-logo">To Do List</span></a>
+               </div>
+          </div>
+     </section>
+
+     <!-- HOME -->
+     <section id="home" class="images" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row"><center>
+                                             <h3 >Let's Simplify Tasks Remembering By Adding Tasks In To-Do List</h3></center>
+                                        </div>
+                                   </div>
+     </section>
+
+     <!-- ABOUT -->
+     <section id="todo">
+          <div class="container">
+               <div class="row">
+                                   <div class="container">
+                                        <input class="task" type="text" id="task" placeholder="Add a new task">
+                                        <button class="add-btn" onclick="addTask()">Add</button>
+                                        <br><br>
+                                        <table id="taskTable">
+                                            <thead>
+                                                <tr>
+                                                    <th>Task</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="taskList">
+                                            </tbody>
+                                        </table>
+                                    </div>
+               </div>
+          </div>
+     </section>
+<br><br>
+     <center><span class="first-logo">DESIGNED BY SANKET YEDLE</span></center>
+     <script src="js/script.js"></script>
+
+</body>
+</html>
